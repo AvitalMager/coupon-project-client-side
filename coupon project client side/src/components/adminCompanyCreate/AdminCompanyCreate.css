@@ -1,0 +1,17 @@
+.company-container > input  {
+
+  width: 400px;
+  font-size: large;
+  margin: 3px;
+  padding : 5px;  
+  color: teal;  
+
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  }
+
+  .company-container > h1  {
+    color: teal;
+  }

@@ -1,0 +1,101 @@
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #57b846;
+  }
+  
+  a:active {
+    background-color: black;
+  }
+
+  .companyCoupons td, th {
+    width: 15%;
+    height: 2.5% ;
+    /* border: 2px solid rgb(9, 148, 136); */
+    padding: 15px;
+    border: 2px solid rgba(14, 165, 152, 0.26);
+    
+  }
+
+  .companyCoupons input{
+    
+    width: 150px;
+    font-size: medium;
+    margin-top: 20px;
+    padding : 10px;    
+    font-family:  Arial, Helvetica, sans-serif;
+    /* Round corners button */
+    border-radius: 25px;  
+    margin-left: 3px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    
+  }
+  .companyCoupons tr:nth-child(even){background-color: #43d3c7;}
+    
+  .companyCoupons tr:hover {background-color: rgb(141, 236, 228);}
+    
+  .companyCoupons th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #43d3c7;
+      color: rgb(5, 4, 4);
+      border: 2px solid rgb(10, 5, 5);
+  }
+  
+  .companyCoupons{
+  text-align: center;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 10%;
+    /* overflow: auto; */
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: medium;
+ 
+  }
+
+  .companyCoupons > button{
+   
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size:medium;
+    text-decoration: none;
+    clear: left;   
+    background-color:  rgb(233, 121, 17);
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: whitesmoke;
+  
+  }
+
+  .button2 {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size:medium;
+    text-decoration: none;
+    clear: left;   
+    background-color:  rgb(46, 207, 180);
+    padding: 9px;
+    border-radius: 25px ;
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: rgb(5, 47, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    border: midnightblue;
+  }
+
+
+
+  
+
+  
+
+  

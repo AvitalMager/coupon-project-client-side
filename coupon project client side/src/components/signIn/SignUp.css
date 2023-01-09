@@ -1,0 +1,70 @@
+
+.signUp > input:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .signUp > input {
+    width: 400px;
+    font-size: large;
+    margin: 10px;
+    padding : 10px;      
+    /* Round corners button */
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.096), 0 6px 20px 0 rgba(255, 255, 255, 0.062);
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+  }
+  input:focus{
+   max-width: 100%;
+  width: 500px;
+  }
+
+  .signUp{
+  height: 100%;
+  font-size: 24px;
+  color: #14939c;
+  line-height: 1.2;
+  text-align:center;
+  width: 100%;
+  display: block;
+  }
+  button{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size:medium;
+    text-decoration: none;
+    clear: left;   
+    background-color:  rgb(233, 121, 17);
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: whitesmoke;
+  }
+  
+  button:focus {
+  outline: none !important;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #57b846;
+    }
+    
+    button:active {
+    background-color: rgb(255, 251, 251);
+    }
+    
+    .signUp select{
+      width: 400px;
+      font-size: large;
+      margin: 15px;
+      padding : 10px;      
+      /* Round corners button */
+      border-radius: 25px;
+      box-shadow: 0 8px 16px 0 rgba(252, 249, 249, 0.2), 0 6px 20px 0 rgba(248, 248, 248, 0.19);
+      outline: none;
+      border: none;
+      transition: all 0.5s;
+    }
